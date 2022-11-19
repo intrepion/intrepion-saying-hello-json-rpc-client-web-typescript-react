@@ -1,13 +1,11 @@
 import React from "react";
-import Greeting from "./Greeting";
+import GreetingForm from "./GreetingForm";
 
 function App() {
   return (
     <>
-      <form>
-        <label htmlFor="name">Enter name:</label>
-      </form>
-      <Greeting greeting="" />
+      <h1>Saying Hello</h1>
+      <GreetingForm />
     </>
   );
 }
